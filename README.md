@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+Map can return a new array of elements and pass every element back to the callback. .forEach doesn’t return anything but it looks over a list of data and can pass back an item and index for use. 
+
+
 2. What is the difference between a function and a method?
+
+Methods have a receiver attached to them so for example, they can receive objects whereas functions do not have receivers. They are invoked without them but you can pass arguments in. 
 
 3. What is closure?
 
+A closer reaches outside of the scope created by the function to find relevant variables. 
+
 4. Describe the four rules of the 'this' keyword.
 
+ 1. In the global scope, it represents the console object.
+ 2. It refers to the object before the dot that has called a function.
+ 3. You can use it to call the new object created by a constructor function.
+ 4. You can explicitly call objects when using the call and apply methods
+
 5. Why do we need super() in an extended class?
+
+.super() tells a parent’s constructor to be concerned with the child’s attributes.
+
 
 ## Project Set up
 
@@ -46,14 +61,14 @@ Follow these steps to set up and work on your project:
 - [X] Add TL as collaborator on Github.
 - [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [X] You are now ready to build this project with your preferred IDE
+- [X] Implement the project on your Branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your team lead as a Reviewer on the Pull-request
 - [ ] TL then will count the HW as done by  merging the branch back into master.
 
